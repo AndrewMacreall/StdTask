@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="StdTask.MainForm">
+    <Position X="1.5" Y="0.5" Width="3.75" />
+    <Members>
+      <Field Name="aboutToolStripMenuItem" Hidden="true" />
+      <Field Name="addDataToolStripMenuItem" Hidden="true" />
+      <Field Name="bestSearchToolStripMenuItem" Hidden="true" />
+      <Field Name="closeToolStripMenuItem" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="createToolStripMenuItem" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="exitToolStripMenuItem" Hidden="true" />
+      <Field Name="fileToolStripMenuItem" Hidden="true" />
+      <Field Name="goodSearchToolStripMenuItem" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="mainMenuStrip" Hidden="true" />
+      <Field Name="notPassedSearchToolStripMenuItem" Hidden="true" />
+      <Field Name="openToolStripMenuItem" Hidden="true" />
+      <Field Name="passedSearchToolStripMenuItem" Hidden="true" />
+      <Field Name="perfectSearchToolStripMenuItem" Hidden="true" />
+      <Field Name="projectToolStripMenuItem" Hidden="true" />
+      <Field Name="removeToolStripMenuItem" Hidden="true" />
+      <Field Name="reportDataGridView" Hidden="true" />
+      <Field Name="reportOpenFileDialog" Hidden="true" />
+      <Field Name="reportSaveFileDialog" Hidden="true" />
+      <Field Name="resetSearchToolStripMenuItem" Hidden="true" />
+      <Field Name="saveToolStripMenuItem" Hidden="true" />
+      <Field Name="searchToolStripMenuItem" Hidden="true" />
+      <Field Name="sortToolStripMenuItem" Hidden="true" />
+      <Field Name="toolStripSeparator1" Hidden="true" />
+      <Field Name="toolStripSeparator2" Hidden="true" />
+      <Field Name="toolStripSeparator3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>DICkBh0EACABQQBAACSShBAGCApgAFACCkIAAAABSAg=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="reportManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StdTask.ReportSetupDialog">
+    <Position X="6.5" Y="0.5" Width="3.25" />
+    <Members>
+      <Field Name="addButton" Hidden="true" />
+      <Field Name="addSubjectsLabel" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="okButton" Hidden="true" />
+      <Field Name="removeButton" Hidden="true" />
+      <Field Name="selectedSubjectsListBox" Hidden="true" />
+      <Field Name="subjectsLabel" Hidden="true" />
+      <Field Name="subjectsListBox" Hidden="true" />
+    </Members>
+    <AssociationLine Name="GetSubjects" Type="StdTask.Data.HeaderData" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.875" Y="2.502" />
+        <Point X="7.875" Y="6.733" />
+        <Point X="10.25" Y="6.733" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAEACAAAAIQBACAAIACQAAAEBAIgAAgAAAAAAA=</HashCode>
+      <FileName>ReportSetupDialog.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="GetSubjects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="StdTask.SortDialog">
+    <Position X="15.75" Y="0.5" Width="3.25" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="debugCheckBox" Hidden="true" />
+      <Field Name="decreaseSortButton" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="increaseSortButton" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="okButton" Hidden="true" />
+      <Field Name="sortColumnComboBox" Hidden="true" />
+      <Field Name="sortColumnLabel" Hidden="true" />
+      <Field Name="sortMethodComboBox" Hidden="true" />
+      <Field Name="sortMethodLabel" Hidden="true" />
+      <Field Name="sortTypeLabel" Hidden="true" />
+    </Members>
+    <AssociationLine Name="headers" Type="StdTask.Data.HeaderData" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="18.281" Y="3.146" />
+        <Point X="18.281" Y="6.75" />
+        <Point X="12.5" Y="6.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Sort" Type="StdTask.Data.SortData" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19" Y="1.938" />
+        <Point X="19.5" Y="1.938" />
+        <Point X="19.5" Y="4" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAYAAAgAADAAQAKACECYAAACIAAAEgAAAAAAAgCAAAA=</HashCode>
+      <FileName>SortDialog.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Sort" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="headers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="StdTask.AddDataDialog">
+    <Position X="11" Y="0.5" Width="3.25" />
+    <Members>
+      <Field Name="addButton" Hidden="true" />
+      <Field Name="addDataGridView" Hidden="true" />
+      <Field Name="addDataPanel" Hidden="true" />
+      <Field Name="autoGenerateDataCheckBox" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataCountLabel" Hidden="true" />
+      <Field Name="dataNumericUpDown" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgIAAABQACAAAA8BAACIAAgCAAAACAAAgQAAAAJAAIA=</HashCode>
+      <FileName>AddDataDialog.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="headers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="StdTask.Views.FileManager&lt;T&gt;">
+    <Position X="5.25" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAACAAAAAAAAAIAAABAAAAAgAAA=</HashCode>
+      <FileName>Classes\FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Views.ReportManager">
+    <Position X="1.75" Y="5.75" Width="3" />
+    <AssociationLine Name="Headers" Type="StdTask.Data.HeaderData" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="8.375" />
+        <Point X="11.312" Y="8.375" />
+        <Point X="11.312" Y="7.93" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAIGBAAgICAACgIAARAQAAAACAAAAAIAAIhCABDQAAA=</HashCode>
+      <FileName>Classes\ReportManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Headers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="StdTask.Sorts.Sort">
+    <Position X="20.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sorts\Sort.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Sorts.BubbleSort">
+    <Position X="17.5" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAABAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sorts\BubbleSort.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Sorts.ShakerSort">
+    <Position X="20.25" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAABAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sorts\ShakerSort.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Sorts.ViborSort">
+    <Position X="23" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAABAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sorts\ViborSort.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Data.ReportData">
+    <Position X="5.25" Y="6.75" Width="2" />
+    <AssociationLine Name="Headers" Type="StdTask.Data.HeaderData" FixedFromPoint="true">
+      <Path>
+        <Point X="7.25" Y="7.375" />
+        <Point X="10.25" Y="7.375" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Data\ReportData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Headers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="StdTask.Data.HeaderData">
+    <Position X="10.25" Y="6.25" Width="2.25" />
+    <AssociationLine Name="View" Type="StdTask.Views.View" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.5" Y="7.563" />
+        <Point X="12.688" Y="7.563" />
+        <Point X="12.688" Y="9.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAQAAAABAAAIAAAICAAAAAA=</HashCode>
+      <FileName>Data\HeaderData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ColumnType" />
+      <Property Name="View" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StdTask.Events.ExceptionEventArgs">
+    <Position X="7.75" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Events\ExceptionEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Data.ContentData">
+    <Position X="7.75" Y="11" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Data\ContentData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Views.View">
+    <Position X="11.5" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAgACCAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\View.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Views.AverageMarkGroupView">
+    <Position X="1.75" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAACCAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\AverageMarkGroupView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Views.AverageMarkStudentView">
+    <Position X="4.75" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAACCAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\AverageMarkStudentView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Views.GroupView">
+    <Position X="7.75" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAACCAQAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\GroupView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Views.MarkView">
+    <Position X="10.75" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAEAAAAAAACCAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Views\MarkView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Views.NameView">
+    <Position X="13.75" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAACCAQAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\NameView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Views.PriorityView">
+    <Position X="16.75" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAACCAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\PriorityView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Views.SubjectsCountView">
+    <Position X="19.75" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAACCAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\SubjectsCountView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StdTask.Views.SubjectsSumView">
+    <Position X="22.75" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAACCAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\SubjectsSumView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="StdTask.Data.SortData">
+    <Position X="18.75" Y="4" Width="1.5" />
+    <AssociationLine Name="Method" Type="StdTask.Sorts.Sort" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20.25" Y="5.178" />
+        <Point X="21.438" Y="5.178" />
+        <Point X="21.438" Y="6.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAgAAAAAAAAAAAAAQEAAAAAAAA=</HashCode>
+      <FileName>Data\SortData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+      <Property Name="Method" />
+    </ShowAsAssociation>
+  </Struct>
+  <Enum Name="StdTask.Enums.SortType">
+    <Position X="21.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Enums\SortType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StdTask.Enums.ColumnType">
+    <Position X="14.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\ColumnType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StdTask.Enums.SearchType">
+    <Position X="21.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAABAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Enums\SearchType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

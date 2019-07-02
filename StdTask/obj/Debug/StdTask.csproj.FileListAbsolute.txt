@@ -1,0 +1,67 @@
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\bin\Debug\StdTask.exe
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\bin\Debug\StdTask.pdb
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\obj\Debug\StdTask.Properties.Resources.resources
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\obj\Debug\StdTask.csproj.GenerateResource.cache
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\obj\Debug\StdTask.csproj.CoreCompileInputs.cache
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\obj\Debug\StdTask.exe
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\obj\Debug\StdTask.pdb
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\obj\Debug\StdTask.csproj.CopyComplete
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\bin\Debug\StdTask.exe.config
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\obj\Debug\StdTask.MainForm.resources
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\obj\Debug\StdTask.ReportSetupDialog.resources
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\obj\Debug\StdTask.AddDataDialog.resources
+C:\Users\AZuev\Documents\Visual Studio 2017\Projects\StdTask\StdTask\obj\Debug\StdTask.csprojAssemblyReference.cache
+C:\Users\it10\Desktop\StdTask\StdTask\bin\Debug\StdTask.exe.config
+C:\Users\it10\Desktop\StdTask\StdTask\bin\Debug\StdTask.exe
+C:\Users\it10\Desktop\StdTask\StdTask\bin\Debug\StdTask.pdb
+C:\Users\it10\Desktop\StdTask\StdTask\bin\Debug\Newtonsoft.Json.dll
+C:\Users\it10\Desktop\StdTask\StdTask\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\it10\Desktop\StdTask\StdTask\bin\Debug\Newtonsoft.Json.xml
+C:\Users\it10\Desktop\StdTask\StdTask\obj\Debug\StdTask.AddDataDialog.resources
+C:\Users\it10\Desktop\StdTask\StdTask\obj\Debug\StdTask.MainForm.resources
+C:\Users\it10\Desktop\StdTask\StdTask\obj\Debug\StdTask.Properties.Resources.resources
+C:\Users\it10\Desktop\StdTask\StdTask\obj\Debug\StdTask.ReportSetupDialog.resources
+C:\Users\it10\Desktop\StdTask\StdTask\obj\Debug\StdTask.csproj.GenerateResource.cache
+C:\Users\it10\Desktop\StdTask\StdTask\obj\Debug\StdTask.csproj.CoreCompileInputs.cache
+C:\Users\it10\Desktop\StdTask\StdTask\obj\Debug\StdTask.csproj.CopyComplete
+C:\Users\it10\Desktop\StdTask\StdTask\obj\Debug\StdTask.exe
+C:\Users\it10\Desktop\StdTask\StdTask\obj\Debug\StdTask.pdb
+C:\Users\it10\Desktop\StdTask\StdTask\obj\Debug\StdTask.csprojAssemblyReference.cache
+C:\Users\it10\Desktop\StdTask\StdTask\obj\Debug\StdTask.SortDialog.resources
+C:\Users\AZuev\Desktop\StdTask\StdTask\bin\Debug\StdTask.exe.config
+C:\Users\AZuev\Desktop\StdTask\StdTask\bin\Debug\StdTask.exe
+C:\Users\AZuev\Desktop\StdTask\StdTask\bin\Debug\StdTask.pdb
+C:\Users\AZuev\Desktop\StdTask\StdTask\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AZuev\Desktop\StdTask\StdTask\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\AZuev\Desktop\StdTask\StdTask\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AZuev\Desktop\StdTask\StdTask\obj\Debug\StdTask.csprojAssemblyReference.cache
+C:\Users\AZuev\Desktop\StdTask\StdTask\obj\Debug\StdTask.AddDataDialog.resources
+C:\Users\AZuev\Desktop\StdTask\StdTask\obj\Debug\StdTask.MainForm.resources
+C:\Users\AZuev\Desktop\StdTask\StdTask\obj\Debug\StdTask.Properties.Resources.resources
+C:\Users\AZuev\Desktop\StdTask\StdTask\obj\Debug\StdTask.ReportSetupDialog.resources
+C:\Users\AZuev\Desktop\StdTask\StdTask\obj\Debug\StdTask.SortDialog.resources
+C:\Users\AZuev\Desktop\StdTask\StdTask\obj\Debug\StdTask.csproj.GenerateResource.cache
+C:\Users\AZuev\Desktop\StdTask\StdTask\obj\Debug\StdTask.csproj.CoreCompileInputs.cache
+C:\Users\AZuev\Desktop\StdTask\StdTask\obj\Debug\StdTask.csproj.CopyComplete
+C:\Users\AZuev\Desktop\StdTask\StdTask\obj\Debug\StdTask.exe
+C:\Users\AZuev\Desktop\StdTask\StdTask\obj\Debug\StdTask.pdb
+E:\Стандартизация\StdTask\StdTask\bin\Debug\StdTask.exe.config
+E:\Стандартизация\StdTask\StdTask\bin\Debug\StdTask.exe
+E:\Стандартизация\StdTask\StdTask\bin\Debug\StdTask.pdb
+E:\Стандартизация\StdTask\StdTask\bin\Debug\Newtonsoft.Json.dll
+E:\Стандартизация\StdTask\StdTask\bin\Debug\Newtonsoft.Json.pdb
+E:\Стандартизация\StdTask\StdTask\bin\Debug\Newtonsoft.Json.xml
+E:\Стандартизация\StdTask\StdTask\obj\Debug\StdTask.csprojAssemblyReference.cache
+E:\Стандартизация\StdTask\StdTask\obj\Debug\StdTask.AddDataDialog.resources
+E:\Стандартизация\StdTask\StdTask\obj\Debug\StdTask.MainForm.resources
+E:\Стандартизация\StdTask\StdTask\obj\Debug\StdTask.Properties.Resources.resources
+E:\Стандартизация\StdTask\StdTask\obj\Debug\StdTask.ReportSetupDialog.resources
+E:\Стандартизация\StdTask\StdTask\obj\Debug\StdTask.SortDialog.resources
+E:\Стандартизация\StdTask\StdTask\obj\Debug\StdTask.csproj.GenerateResource.cache
+E:\Стандартизация\StdTask\StdTask\obj\Debug\StdTask.csproj.CoreCompileInputs.cache
+E:\Стандартизация\StdTask\StdTask\obj\Debug\StdTask.csproj.CopyComplete
+E:\Стандартизация\StdTask\StdTask\obj\Debug\StdTask.exe
+E:\Стандартизация\StdTask\StdTask\obj\Debug\StdTask.pdb

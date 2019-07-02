@@ -1,0 +1,65 @@
+{
+  
+  "headers": [
+    {
+      "type": 0,
+      "name": "groupColumn",
+      "text": "Группа",
+      "read": false,
+      "view": { "$type": "StdTask.Views.GroupView, StdTask" }
+    },
+    {
+      "type": 0,
+      "name": "secondNameColumn",
+      "text": "Фамилия",
+      "read": false,
+      "view": { "$type": "StdTask.Views.NameView, StdTask" }
+    },
+    {
+      "type": 0,
+      "name": "subjectColumn0",
+      "text": "Математика",
+      "read": false,
+      "view": { "$type": "StdTask.Views.MarkView, StdTask" }
+    },
+    {
+      "type": 0,
+      "name": "subjectColumn1",
+      "text": "Русский язык",
+      "read": false,
+      "view": { "$type": "StdTask.Views.MarkView, StdTask" }
+    },
+    {
+      "type": 1,
+      "name": "priorityColumn",
+      "text": "Вовремя",
+      "read": false,
+      "view": null
+    },
+    {
+      "type": 0,
+      "name": "studentAvarageScoreColumn",
+      "text": "Средний балл студента",
+      "read": true,
+      "view": null
+    },
+    {
+      "type": 0,
+      "name": "groiupAvarageScoreColumn",
+      "text": "Средний балл группы",
+      "read": true,
+      "view": null
+    }
+  ],
+  "contents": [
+    [ "ИЭс-167-18", "Морозов", 2, 2, false, 3.5, null ],
+    [ "ИЭс-167-18", "Морозов", 5, 3, false, null, null ],
+    [ "ИЭс-167-18", "Морозов", 4, 2, false, null, null ],
+    [ null, "Test", 2, 3, null, null, null ],
+    [ null, null, null, null, true, null, null ],
+    [ "ИЭс-167-18", "Морозов", 4, 2, false, null, null ],
+    [ "ИЭс-165-18", "Зуев", 2, 2, false, null, null ],
+    [ "ИЭс-167-18", "Иванов", 2, 3, false, null, null ],
+    [ "ИЭс-165-18", "Zuev", 5, 5, false, null, null ]
+  ]
+}

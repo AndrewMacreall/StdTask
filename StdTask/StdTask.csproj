@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79C7AE64-EF53-45B7-BECB-9B81A1E4978B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StdTask</RootNamespace>
+    <AssemblyName>StdTask</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddDataDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDataDialog.Designer.cs">
+      <DependentUpon>AddDataDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\FileManager.cs" />
+    <Compile Include="Data\SortData.cs" />
+    <Compile Include="Enums\SearchType.cs" />
+    <Compile Include="Enums\SortType.cs" />
+    <Compile Include="Events\ExceptionEventArgs.cs" />
+    <Compile Include="SortDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SortDialog.Designer.cs">
+      <DependentUpon>SortDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sorts\BubbleSort.cs" />
+    <Compile Include="Sorts\ShakerSort.cs" />
+    <Compile Include="Sorts\Sort.cs" />
+    <Compile Include="Sorts\ViborSort.cs" />
+    <Compile Include="Views\AverageMarkGroupView.cs" />
+    <Compile Include="Views\AverageMarkStudentView.cs" />
+    <Compile Include="Views\GroupView.cs" />
+    <Compile Include="Classes\ReportManager.cs" />
+    <Compile Include="Views\MarkView.cs" />
+    <Compile Include="Views\NameView.cs" />
+    <Compile Include="Views\PriorityView.cs" />
+    <Compile Include="Views\SubjectsCountView.cs" />
+    <Compile Include="Views\SubjectsSumView.cs" />
+    <Compile Include="Views\View.cs" />
+    <Compile Include="Data\ContentData.cs" />
+    <Compile Include="Data\HeaderData.cs" />
+    <Compile Include="Data\ReportData.cs" />
+    <Compile Include="Enums\ColumnType.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportSetupDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportSetupDialog.Designer.cs">
+      <DependentUpon>ReportSetupDialog.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddDataDialog.resx">
+      <DependentUpon>AddDataDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ReportSetupDialog.resx">
+      <DependentUpon>ReportSetupDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SortDialog.resx">
+      <DependentUpon>SortDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
